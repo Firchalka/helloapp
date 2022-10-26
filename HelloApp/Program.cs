@@ -2,9 +2,13 @@
 namespace HelloApp{
     class Program
         {
-        private static void Main(string[] args)
+        static void Main(string[] args)
         {
             Console.WriteLine("hello");
+        }
+        static void GreetWhite(string[] args)
+        {
+            Console.WriteLine("hello white");
         }
     }   
 }
